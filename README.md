@@ -7,20 +7,20 @@ A command-line unit converter supporting length and mass conversions across SI a
 ## Usage
  
 ```bash
-unit-convertor <value> <unit_from> <unit_to>
-unit-convertor <format> <value> <unit_from> <unit_to>
+unit-converter <value> <unit_from> <unit_to>
+unit-converter <format> <value> <unit_from> <unit_to>
 ```
  
 ### Examples
  
 ```bash
-unit-convertor 5 km m
+unit-converter 5 km m
 # 5.0 km is equal to 5000.0 m
  
-unit-convertor -e 5 km m
+unit-converter -e 5 km m
 # 5.00e+00 km is equal to 5.00e+03 m
  
-unit-convertor -10x 0.003 m mm
+unit-converter -10x 0.003 m mm
 # 3.00 x 10^-3 m is equal to 3.00 x 10^0 mm
 ```
 
@@ -47,13 +47,13 @@ SI prefixes from kg down to pg, plus imperial units: `oz`, `lb`, `ton`
  
 ```bash
 pip install .
-unit-convertor 5 km m
+unit-converter 5 km m
 ```
  
 Or run directly without installing:
  
 ```bash
-unit-convertor 5 km m
+unit-converter 5 km m
 ```
  
 ---
