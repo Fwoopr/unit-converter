@@ -15,7 +15,7 @@ def main():
             sys.exit(2)
         unit_from = sys.argv[2].lower()
         converted_value = convert(value, unit_to, unit_from)
-        print(f"{value} {unit_from} is equal to {converted_value} {unit_to}")
+        print(f"{value} {unit_from} is equal to {converted_value:} {unit_to}")
 
     elif len(sys.argv) == 5:
         format = sys.argv[1].lower()
@@ -32,6 +32,7 @@ def main():
         elif format == '-10x':
             print(f"{tenx_format(value)} {unit_from} is equal to {tenx_format(converted_value)} {unit_to}")
         else:
+            sys.exit(1)
             print('Invalid format. Use -e for scientific notation or -10x for 10-based notation.')
 
 def convert(value, unit_to, unit_from='m'):
