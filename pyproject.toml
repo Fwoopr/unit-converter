@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "unit-convertor"
+name = "unit-converter"
 version = "1.0"
 description = "A modular Python tool to convert units of measurement."
 authors = [
@@ -22,7 +22,7 @@ testpaths = ["."]
 python_files = "test_*.py"
 
 [project.scripts]
-unit-convertor = "main:main"
+unit-converter = "main:main"
 
 [tool.setuptools]
 py-modules = ["main", "units"]
