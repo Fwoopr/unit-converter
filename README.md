@@ -44,15 +44,21 @@ SI prefixes from kg down to pg, plus imperial units: `oz`, `lb`, `ton`
 ---
 
 ## Project Structure
-
 ```
 unit-converter/
-├── project.py  
-├── units.py  
+├── main.py    
+├── units.py     
+├── test_main.py 
 └── README.md
 ```
-
+ 
 ---
+ 
+## Testing
+ 
+```bash
+pytest test_main.py
+```
 
 ## How It Works
 
