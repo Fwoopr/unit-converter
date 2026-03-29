@@ -41,6 +41,12 @@ SI prefixes from km down to pm, plus imperial units: `in`, `ft`, `yd`, `mi`
 ### Mass (base: gram)
 SI prefixes from kg down to pg, plus imperial units: `oz`, `lb`, `ton`
 
+### Energy (base: joule)
+Joule, calories, `kWh` and `eV`
+
+### Frequency (base: Hz)
+`Hz` to `GHz`
+
 ---
 
 ## Installation

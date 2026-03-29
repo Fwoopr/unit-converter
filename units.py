@@ -40,6 +40,25 @@ units = {
     'oz': 28.349523125,
     'lb': 453.59237,
     'ton': 907184.74,
+    },
 
+    'energy': {
+    # Base unit: joule (J)
+    
+    'kJ': 1000.0,
+    'J': 1.0,
+    'cal': 4.184,
+    'kcal': 4184.0,
+    'kWh': 3600000.0,
+    'eV': 1.60218e-19,
+    },
+
+    'frequency': {
+    # Base unit: hertz (Hz)
+
+    'kHz': 1000.0,
+    'Hz': 1.0,
+    'MHz': 1e6,
+    'GHz': 1e9,
     }
 }

@@ -15,7 +15,7 @@ def main():
             sys.exit(2)
         unit_from = sys.argv[2].lower()
         converted_value = convert(value, unit_to, unit_from)
-        print(f"{value} {unit_from} is equal to {converted_value:} {unit_to}")
+        print(f"{value} {unit_from} is equal to {converted_value} {unit_to}")
 
     elif len(sys.argv) == 5:
         format = sys.argv[1].lower()
