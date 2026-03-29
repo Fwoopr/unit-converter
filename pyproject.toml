@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unit-convertor"
+version = "1.0"
+description = "A modular Python tool to convert units of measurement."
+authors = [
+    { name = "Fwoopr" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+python_files = "test_*.py"
+
+[project.scripts]
+unit-convertor = "main:main"
+
+[tool.setuptools]
+py-modules = ["main", "units"]

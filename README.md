@@ -5,22 +5,22 @@ A command-line unit converter supporting length and mass conversions across SI a
 ---
 
 ## Usage
-
+ 
 ```bash
-python project.py <value> <unit_from> <unit_to>
-python project.py <format> <value> <unit_from> <unit_to>
+unit-convertor <value> <unit_from> <unit_to>
+unit-convertor <format> <value> <unit_from> <unit_to>
 ```
-
+ 
 ### Examples
-
+ 
 ```bash
-python project.py 5 km m
+unit-convertor 5 km m
 # 5.0 km is equal to 5000.0 m
-
-python project.py -e 5 km m
+ 
+unit-convertor -e 5 km m
 # 5.00e+00 km is equal to 5.00e+03 m
-
-python project.py -10x 0.003 m mm
+ 
+unit-convertor -10x 0.003 m mm
 # 3.00 x 10^-3 m is equal to 3.00 x 10^0 mm
 ```
 
@@ -43,6 +43,20 @@ SI prefixes from kg down to pg, plus imperial units: `oz`, `lb`, `ton`
 
 ---
 
+## Installation
+ 
+```bash
+pip install .
+unit-convertor 5 km m
+```
+ 
+Or run directly without installing:
+ 
+```bash
+unit-convertor 5 km m
+```
+ 
+---
 ## Project Structure
 ```
 unit-converter/
