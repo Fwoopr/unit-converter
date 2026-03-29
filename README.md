@@ -65,7 +65,7 @@ unit-converter/
 ## Testing
  
 ```bash
-pytest test_main.py
+pytest test_unit_converter.py
 ```
 
 ## How It Works
