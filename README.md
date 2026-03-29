@@ -50,12 +50,6 @@ pip install .
 unit-converter 5 km m
 ```
  
-Or run directly without installing:
- 
-```bash
-unit-converter 5 km m
-```
- 
 ---
 ## Project Structure
 ```
